@@ -1,4 +1,3 @@
-
 @keyframes letters {
   0%{ 
     color: black; 
@@ -116,10 +115,10 @@ h2 {
   text-align: center; 
   line-height: 0.1em;
   margin: 10px 0 20px; 
+  font-family: "Comic Sans MS", cursive, sans-serif;
 } 
 
 h2 span { 
-  
    background: inherit; 
    padding:0 10px; 
   
@@ -131,7 +130,29 @@ h2 span {
   margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+}
+
+#playlist{
+min-height: 100px;
+overflow: hidden;
+}
+
+#photos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+#like_button{
+  min-height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  z-index:-1;
 }
 .text{
   font: 24px;
@@ -145,6 +166,7 @@ fieldset {
   grid-area: 1 / 1; /* first row, first column */
   padding: 20px; 
   width: inherit; 
+  z-index:-1;
 }
 /* rotate to right */
 fieldset:nth-of-type(2){ transform: rotate(90deg); }
@@ -172,10 +194,96 @@ fieldset:nth-of-type(3) > legend {
 
 
 .container{ 
-  float:left; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width:100%; 
 }
 .container div{ 
   float:left;
   padding-left: 10px;
 } 
+
+
+@keyframes glow_like {
+  to {
+      text-shadow: 0 0 10px red;
+  }
+}
+
+.confirm_selection {
+  animation: glow_like .5s infinite alternate;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+@keyframes glow_qr {
+  to {
+      text-shadow: 0 0 10px blue;
+  }
+}
+
+.qr {
+  animation: glow_qr .5s infinite alternate;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+@keyframes animate { 
+  
+  0% { 
+      content: "My"; 
+  } 
+
+  50% { 
+      content: "Personal"; 
+  } 
+
+  75% { 
+      content: "Playlist"; 
+  } 
+} 
+
+
+
+
+h1 { 
+  display: flex; 
+  justify-content: center; 
+  color: black; 
+} 
+
+#play::before { 
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  content: "My"; 
+  animation: animate infinite 3s; 
+  padding-left: 10px; 
+} 
+
+table, th, td, tr {
+	border: 1px black solid;
+	border-collapse: collapse;  
+	border-spacing: 10px 10px;
+
+}
+th, td {
+	padding: 10px;
+}
+th {
+	text-align: left;
+}
+
+td {
+	text-align: center;
+}
+
+h3 u{
+  display: flex; 
+  justify-content: center; 
+}
+h3 li{
+  margin-left:10px;
+}
