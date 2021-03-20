@@ -272,18 +272,25 @@
     <br/>
     <br/>
   </h2>
-  <h3>
-    <form action="https://formsubmit.co/edenyav@post.bgu.ac.il" method="POST">
-      Name:<br>
-      <input type="text" name="name"><br>
-      E-mail:<br>
-      <input type="text" name="mail"><br>
-      Comment:<br>
-      <textarea id="myTextarea"></textarea><br/><br/>
+  <div class="container">
 
-      <input type="submit" value="Send">
-      <input type="reset" value="Reset">
- </form>
+    <form target="_blank" action="https://formsubmit.co/edenyav@post.bgu.ac.il" method="POST">
+        <div class="form-group">
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+    </form>
+</div>
   </h3>
     <br/>
     <br/>
