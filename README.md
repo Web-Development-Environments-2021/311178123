@@ -58,12 +58,13 @@ In order to change the target email you will have to:
 
 There are some known issues:
 
-    1. As you saw in the first picture in __Special Remarks__, after you have sent the message there will be a link for going back to the website
+   - As you saw in the first picture in __Special Remarks__, after you have sent the message there will be a link for going back to the website
       
-      ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112662766-1f228b80-8e69-11eb-94de-c88a054e1587.PNG)
+      [
+      ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112675204-e8a03d00-8e77-11eb-8d37-448ea619b664.PNG)
+      ](url)
 
-      
-      As you can see this is not full URL to the webiste so the link will not work. This is a known bug in the service so don't click the link and just close the tab
-      If it was open in a new tab (like in the first picture in special remarks) or go backward with the arrow button.
-      :)
+   As you can see this is not full URL to the webiste so the link will not work. This is a known bug in the service so don't click the link and just close the tab
+   If it was open in a new tab (like in the first picture in special remarks) or go backward with the arrow button.
+   :)
 
