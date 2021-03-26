@@ -20,15 +20,22 @@ https://web-development-environments-2021.github.io/311178123/
 
 The email system is using a third party software called FormSubmit.io. To send an email you should:
 
-    1. Fill the contact form and press "Submit form", for example:
+  1. Fill the contact form and press "Submit form", for example:
+   
     
-    ![1](https://user-images.githubusercontent.com/64005996/112660594-ade1d900-8e66-11eb-9c37-538d78ac9da5.png)
+ ![1](https://user-images.githubusercontent.com/64005996/112660594-ade1d900-8e66-11eb-9c37-538d78ac9da5.png)
+ 
+ 
 
-     2. A seperate tab will open. After you have checked the box your form should have been sent to the email configured in the website.
-         ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661053-28aaf400-8e67-11eb-8b76-cf6eb574eb36.PNG)
+  2. A seperate tab will open. After you have checked the box your form should have been sent to the email configured in the website.
+
+
+   ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661053-28aaf400-8e67-11eb-8b76-cf6eb574eb36.PNG)
          
-         You can check your email to see the message:
-         ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661266-6576eb00-8e67-11eb-92c2-d47e3ce3c18e.PNG)
+   You can check your email to see the message:
+   
+   
+   ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661266-6576eb00-8e67-11eb-92c2-d47e3ce3c18e.PNG)
 
 
 ## Installation instructions
