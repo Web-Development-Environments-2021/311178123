@@ -24,7 +24,7 @@ https://formsubmit.co/?utm_source=formsubmit.co&utm_medium=site%20link&utm_campa
 In order to change the target email you will have to:
 
     1. Replace the email written in line 295 in index.html:
-![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112594210-a0523200-8e19-11eb-8038-a848f713f89b.PNG)
+![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112594364-dc859280-8e19-11eb-8f75-a76598029043.PNG)
 
     2. Upon trying to send the first email using the contact form an email from FormSubmit will send to you.
         The email will contain an actication link to activate the email system.
