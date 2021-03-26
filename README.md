@@ -41,5 +41,4 @@ There are some known issues:
         The website will be open in a seperate link so you can just close the new tab that was open and continue enjoyinh
         the website.
       
----
-### The project is done by Eden Yavin
+
