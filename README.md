@@ -40,9 +40,6 @@ There are some known issues:
         Do not press the link. For some reason there is a bug in the FormSubmit system and the link does not work.
         The website will be open in a seperate link so you can just close the new tab that was open and continue enjoyinh
         the website.
-    2. The like button is floating over the menu. No matter what I try doing and all the css magic I tried doing it does
-        not work. The reason from what I can see is that the button is loaded after the css and html had been rended with a 
-        different class name than the one the plugin mention (fb-like). As a result the css does not apply to it.
       
 ---
 ### The project is done by Eden Yavin
