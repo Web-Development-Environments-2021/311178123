@@ -60,7 +60,7 @@ There are some known issues:
 
     1. As you saw in the first picture in __Special Remarks__, after you have sent the message there will be a link for going back to the website
       
-      ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112662258-88ee6580-8e68-11eb-99e4-726b77bcba61.PNG)
+      ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112662766-1f228b80-8e69-11eb-94de-c88a054e1587.PNG)
 
       
       As you can see this is not full URL to the webiste so the link will not work. This is a known bug in the service so don't click the link and just close the tab
