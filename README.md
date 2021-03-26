@@ -7,7 +7,7 @@ The person presented in the website is my mom - __Miri Yavin__
 
 Link to the website:
 
-https://web-development-environments-2021.github.io/assignment1-edenyav/
+https://web-development-environments-2021.github.io/311178123/
 
 ### You can:
     * Like or share the website using the like & share button
