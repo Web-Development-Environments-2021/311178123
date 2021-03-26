@@ -1,9 +1,9 @@
-## Project overview
+## Project overview - RealMe website
 
 ---
 
 The project is about creating a website for a family member.
-The person presented in the website is my mom - __Miri Yavin__
+I've created the **Realme website** that will presente my mom - __Miri Yavin__
 
 Link to the website:
 
