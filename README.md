@@ -20,8 +20,15 @@ https://web-development-environments-2021.github.io/assignment1-edenyav/
 
 The email system is using a third party software called FormSubmit.io. To send an email you should:
 
-    1. Fill the contact form, for example:
-    
+    1. Fill the contact form and press "Submit form", for example:
+    ![1](https://user-images.githubusercontent.com/64005996/112660594-ade1d900-8e66-11eb-9c37-538d78ac9da5.png)
+
+     2. A seperate tab will open. After you have checked the box your form should have been sent to the email configured in the website.
+         ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661053-28aaf400-8e67-11eb-8b76-cf6eb574eb36.PNG)
+         
+         You can check your email to see the message:
+         ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661266-6576eb00-8e67-11eb-92c2-d47e3ce3c18e.PNG)
+
 
 ## Installation instructions
 ---
@@ -39,19 +46,21 @@ In order to change the target email you will have to:
     1. Replace the email written in line 319 in index.html:
 ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112594364-dc859280-8e19-11eb-8f75-a76598029043.PNG)
 
-    2. Upon trying to send the first email using the contact form an email from FormSubmit will send to you.
-        The email will contain an actication link to activate the email system.
-        After clicking the link you can start sending emails with ease.
+    2. Upon trying to send the first email using the contact form an email from FormSubmit will send to you to activate the service:
+
+         ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661582-bbe42980-8e67-11eb-8337-8ee952829bf8.PNG)
+
+        After clicking the "Activate Link" you can start sending emails with ease.
 
 ## Common bugs:
 ---
 
 There are some known issues:
 
-    1. After pressing "sent" to send your email a seperate link will be open telling you that your email have been sent
-        and asking if you want to go back to the website with the link of the website.
-        Do not press the link. For some reason there is a bug in the FormSubmit system and the link does not work.
-        The website will be open in a seperate link so you can just close the new tab that was open and continue enjoyinh
-        the website.
+    1. As you saw in the first picture in __Special Remarks__, after you have sent the message there will be a link for going back to the website
+      ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661906-1bdad000-8e68-11eb-9796-bbc787a99e2f.PNG)
       
+      As you can see this is not full URL to the webiste so the link will not work. This is a known bug in the service so don't click the link and just close the tab
+      If it was open in a new tab (like in the first picture in special remarks) or go backward with the arrow button.
+      :)
 
