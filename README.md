@@ -9,6 +9,19 @@ Link to the website:
 
 https://web-development-environments-2021.github.io/assignment1-edenyav/
 
+### You can:
+    * Like or share the website using the like & share button
+    * Share the QR code with friends so they can visit the website
+    * Contact me via the contact form and let me know what you think.
+
+
+## Special Remark:
+---
+
+The email system is using a third party software called FormSubmit.io. To send an email you should:
+
+    1. Fill the contact form, for example:
+    
 
 ## Installation instructions
 ---
