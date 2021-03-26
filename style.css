@@ -89,6 +89,7 @@ body {margin:0;}
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  z-index:100
 }
 .menu :last-child{
   float: right;
@@ -126,9 +127,6 @@ h2 span {
   
 }
 
-
-
-
 #photos{
   display: flex;
   justify-content: center;
@@ -148,6 +146,11 @@ h2 span {
   margin-top: 50px;
   z-index:-1; /* Move image to backround */
 }
+
+.fb-like{
+  z-index:-1; /* Move image to backround */
+}
+
 .text{
   font: 24px;
   font-style: italic;
