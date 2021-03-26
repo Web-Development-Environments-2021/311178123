@@ -23,8 +23,8 @@ The email system is using a third party software called FormSubmit.io. To send a
   1. Fill the contact form and press "Submit form", for example:
    
     
- ![1](https://user-images.githubusercontent.com/64005996/112660594-ade1d900-8e66-11eb-9c37-538d78ac9da5.png)
- 
+![image](https://user-images.githubusercontent.com/64005996/112676190-2ea9d080-8e79-11eb-9880-9922c4003660.png)
+
  
 
   2. A seperate tab will open. After you have checked the box your form should have been sent to the email configured in the website.
