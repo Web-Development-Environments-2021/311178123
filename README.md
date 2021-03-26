@@ -3,7 +3,7 @@
 ---
 
 The project is about creating a website for a family member.
-I've created the **Realme website** that will presente my mom - __Miri Yavin__
+I've created the **Realme website** that will presente my mom - __Dr. Miri Yavin__
 
 Link to the website:
 
