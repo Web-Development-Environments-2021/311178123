@@ -313,6 +313,7 @@ table, th, td, tr {
 	border: 1px black solid;
 	border-collapse: collapse;  
 	border-spacing: 10px 10px;
+  border: 5px solid blue;
 
 }
 th, td {
