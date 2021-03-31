@@ -44,7 +44,7 @@
   }
 }
 
-body {margin:0;}
+body {margin:0; background-color: rgb(241, 240, 240);}
 
 .logo {
   position: relative;
