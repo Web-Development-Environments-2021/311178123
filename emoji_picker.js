@@ -23,7 +23,6 @@ class EmojiPicker {
       emojiPicker.style.display = "none";
       emojiInput.focus();
 
-      //trigger ng-change for angular
       if (typeof angular !== "undefined") {
         angular.element(emojiInput).triggerHandler("change");
       }
