@@ -61,7 +61,7 @@ In order to change the target email you will have to:
 
     2. Upon trying to send the first email using the contact form an email from FormSubmit will send to you to activate the service:
 
-         ![‏‏לכידה](https://user-images.githubusercontent.com/64005996/112661582-bbe42980-8e67-11eb-8337-8ee952829bf8.PNG)
+![image](https://user-images.githubusercontent.com/64005996/113483564-be203680-94ac-11eb-9f79-2e6402cbcbe8.png)
 
         After clicking the "Activate Link" you can start sending emails with ease.
 
