@@ -1,3 +1,7 @@
+/* 
+CSS animations: moving image, chaning spacing and changing font color
+*/
+
 @keyframes letters {
   0%{ 
     color: black; 
@@ -43,6 +47,61 @@
       left: 0px;
   }
 }
+
+@keyframes glow_like {
+  to {
+      text-shadow: 0 0 10px red;
+  }
+}
+
+@keyframes glow_contact {
+  to {
+      text-shadow: 0 0 10px rgb(230, 233, 49);
+  }
+}
+
+@keyframes glow_qa {
+  to {
+      text-shadow: 0 0 10px rgb(0, 255, 21);
+  }
+}
+
+@keyframes glow_qr {
+  to {
+      text-shadow: 0 0 10px blue;
+  }
+}
+
+@keyframes glow_about {
+  to {
+      text-shadow: 0 0 10px rgb(255, 187, 0);
+  }
+}
+
+@keyframes glow_photos {
+  to {
+      text-shadow: 0 0 10px rgb(0, 255, 157);
+  }
+}
+
+@keyframes animate { 
+  
+  0% { 
+      content: "My"; 
+  } 
+
+  50% { 
+      content: "Personal"; 
+  } 
+
+  75% { 
+      content: "Playlist"; 
+  } 
+} 
+
+/*
+HTML body 
+*/
 
 body {margin:0; background-color: rgb(241, 240, 240);}
 
@@ -202,11 +261,7 @@ fieldset:nth-of-type(3) > legend {
 } 
 
 
-@keyframes glow_like {
-  to {
-      text-shadow: 0 0 10px red;
-  }
-}
+
 
 .photos_msg {
   animation: glow_photos .5s infinite alternate;
@@ -243,35 +298,7 @@ fieldset:nth-of-type(3) > legend {
   font-weight: bold;
 }
 
-@keyframes glow_contact {
-  to {
-      text-shadow: 0 0 10px rgb(230, 233, 49);
-  }
-}
 
-@keyframes glow_qa {
-  to {
-      text-shadow: 0 0 10px rgb(0, 255, 21);
-  }
-}
-
-@keyframes glow_qr {
-  to {
-      text-shadow: 0 0 10px blue;
-  }
-}
-
-@keyframes glow_about {
-  to {
-      text-shadow: 0 0 10px rgb(255, 187, 0);
-  }
-}
-
-@keyframes glow_photos {
-  to {
-      text-shadow: 0 0 10px rgb(0, 255, 157);
-  }
-}
 
 .qr {
   animation: glow_qr .5s infinite alternate;
@@ -281,20 +308,7 @@ fieldset:nth-of-type(3) > legend {
 }
 
 
-@keyframes animate { 
-  
-  0% { 
-      content: "My"; 
-  } 
 
-  50% { 
-      content: "Personal"; 
-  } 
-
-  75% { 
-      content: "Playlist"; 
-  } 
-} 
 
 h1 { 
   display: flex; 
