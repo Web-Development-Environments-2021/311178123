@@ -125,7 +125,6 @@ Ids
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  z-index:-1; /* Move image to backround */
 }
 
 #welcome_msg{
@@ -158,6 +157,7 @@ Ids
   justify-content: center;
   align-items: center;
   flex-direction: column-reverse;
+  z-index: 1;
 }
 
 .links{
@@ -175,7 +175,6 @@ Ids
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  z-index:100
 }
 .menu :last-child{
   float: right;
@@ -211,10 +210,6 @@ h2 span {
    background: inherit; 
    padding:0 10px; 
   
-}
-
-.fb-like{
-  z-index:-1; /* Move image to backround */
 }
 
 .text{
